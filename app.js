@@ -3,7 +3,7 @@
 const env = process.env.NODE_ENV || 'development';
 const config = require('./config')[env];
 const Hapi = require('hapi');
-var Blipp = require('blipp');
+const Blipp = require('blipp');
 const routes = require('./routes');
 
 const MongoModels = require('mongo-models');
